@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+button { cursor: pointer; }
+label { font-weight: 600; }
+input, select, textarea { border: 1px solid #ddd; padding: 8px 10px; border-radius: 8px; }
+.card { background: white; border-radius: 16px; border: 1px solid #eee; box-shadow: 0 10px 30px rgba(0,0,0,0.06); }
+.btn { background: #0f766e; border: none; color: white; padding: 10px 14px; border-radius: 10px; font-weight: 700; }
+.btn.secondary { background: #334155; }
+.btn.ghost { background: transparent; border: 1px solid #ccc; color: #333; }
+.controls-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+@media (max-width: 900px) { .controls-grid { grid-template-columns: repeat(2, 1fr); } }
